@@ -13,7 +13,7 @@ describe "user sees one article" do
 
       expect(page).to have_content(article.title)
       expect(page).to have_content(article.body)
-
+      
 		end
 	end
 end
